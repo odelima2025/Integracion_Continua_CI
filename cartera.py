@@ -7,7 +7,7 @@ class Cartera(object):
         if isinstance(saldo_inicial, int) and saldo_inicial > 0:
             self.saldo = saldo_inicial
         else:
-            self.saldo = 25
+            self.saldo = -50
 
     def gastar(self, cantidad):
         if self.saldo < cantidad:
