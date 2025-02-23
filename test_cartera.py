@@ -1,6 +1,6 @@
 # test_cartera.py
 import pytest
-from cartera import Cartera, SaldoInsuficiente
+from cartera_g import Cartera, SaldoInsuficiente
 #
 # Pruebas a ser ejecutadas sobre el archivo cartera.py
 # test_crear_cartera_saldo_inicial_positivo: Prueba que al crear una Cartera con un saldo inicial positivo, el saldo se establece correctamente.
